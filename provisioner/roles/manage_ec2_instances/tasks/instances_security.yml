@@ -24,7 +24,6 @@
     state: present
     tags:
       Name: "{{ ec2_name_prefix }}-student{{item.0 + 1}}-checkpoint"
-      Workshop_rtr3: "{{ec2_name_prefix}}-checkpoint"
       Workshop: "{{ec2_name_prefix}}"
       Index: "{{ item[0] }}"
       Student: "student{{item.0 + 1}}"
@@ -34,6 +33,3 @@
       Students: "{{student_total}}"
       short_name: "checkpoint"
       username: "{{ec2_info[checkpoint].username}}"
-  with_indexed_items:
-    - "{{ rtr3_output.instance_ids }}"
-  when: rtr3_output.instance_ids is not none
