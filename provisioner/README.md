@@ -6,7 +6,7 @@
 | Ansible Red Hat Enterprise Linux Workshop  | [Deck](https://ansible.github.io/workshops/decks/ansible-essentials.html)  | [Exercises](../exercises/ansible_rhel) | `workshop_type: rhel`  |
 | Ansible Network Automation Workshop  | [Deck](https://ansible.github.io/workshops/decks/ansible_network.pdf) | [Exercises](../exercises/ansible_network)  | `workshop_type: networking`  |
 | Ansible F5 Workshop | [Deck](https://ansible.github.io/workshops/decks/ansible_f5.pdf) | [Exercises](../exercises/ansible_f5)   | `workshop_type: f5`   |
-
+| Ansible Security Automation Workshop  |   | [Exercises](../exercises/ansible_security) | `workshop_type: security`  |
 
 # Table Of Contents
 - [Requirements](#requirements)
@@ -59,6 +59,7 @@ For more extra_vars examples, look at the following:
 - [sample-vars.yml](sample_workshops/sample-vars.yml) - example for the Ansible RHEL Workshop
 - [sample-vars-networking.yml](sample_workshops/sample-vars-networking.yml) - example for the **Ansible Network Workshop**
 - [sample-vars-f5.yml](sample_workshops/sample-vars-f5.yml) - example for **Ansible F5 Workshop**
+- [sample-vars-security.yml](sample_workshops/sample-vars-security.yml) - example for **Ansible Security Automation Workshop**
 - [sample-vars-auto.yml](sample_workshops/sample-vars-auto.yml) - example for Tower installation and licensing
 
 2. Run the playbook:
